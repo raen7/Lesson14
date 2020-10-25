@@ -376,7 +376,7 @@ textarea {
 }
 
 ._no-webp .mainscreen{
-  background: #F6F6F6 url("../img/image.png") right bottom no-repeat; }
+  background: #f6f6f6 url("../img/image.png") right bottom no-repeat; }
 
 .mainscreen {
   padding: 120px 0px 0px 0px;
@@ -473,6 +473,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   background: #ffffff;
+  min-width: 260px;
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
   padding: 34px 25px 0px 25px;
@@ -802,6 +803,8 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0px -20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .examples__column {
@@ -1050,6 +1053,10 @@ textarea {
   content: "";
 }
 
+.class .class2 {
+  display: block;
+}
+
 ._webp .social__item_wts{ background: #2dd038 url(../img/wts.webp) center center no-repeat; }
 
 ._webp .social__item_wts:hover{ background: #176b1d url(../img/wts.webp) center center no-repeat; }
@@ -1066,7 +1073,7 @@ textarea {
 
 ._webp .contacts__mail{ background: url(../img/maill.webp) 28px center no-repeat; }
 
-._webp .mainscreen{ background: #F6F6F6 url(../img/image.webp) right bottom no-repeat; }
+._webp .mainscreen{ background: #f6f6f6 url(../img/image.webp) right bottom no-repeat; }
 
 ._webp .item-programs__status span{ background: url(../img/icon.webp) 0px 2px no-repeat; }
 
