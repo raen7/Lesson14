@@ -376,7 +376,7 @@ textarea {
 }
 
 ._no-webp .mainscreen{
-  background: url("../img/image.png") right bottom no-repeat; }
+  background: #F6F6F6 url("../img/image.png") right bottom no-repeat; }
 
 .mainscreen {
   padding: 120px 0px 0px 0px;
@@ -1066,7 +1066,7 @@ textarea {
 
 ._webp .contacts__mail{ background: url(../img/maill.webp) 28px center no-repeat; }
 
-._webp .mainscreen{ background: url(../img/image.webp) right bottom no-repeat; }
+._webp .mainscreen{ background: #F6F6F6 url(../img/image.webp) right bottom no-repeat; }
 
 ._webp .item-programs__status span{ background: url(../img/icon.webp) 0px 2px no-repeat; }
 
